@@ -1,12 +1,12 @@
 # Aspire Sample Application
 
-Welcome to the Aspire Sample Application. This project is a comprehensive example of a chat application built with .NET Aspire, Semantic Kernel, and the `@microsoft/ai-chat-protocol` package. The frontend of the application is developed using React and Vite.
+Welcome to the Aspire Sample Application. This project is a comprehensive example of a chat application built with Aspire, Semantic Kernel, and the `@microsoft/ai-chat-protocol` package. The frontend of the application is developed using React and Vite.
 
 ## Overview
 
 The application consists of 2 main Projects:
 
-- `ChatApp.WebApi`: This is a .NET Web API that handles chat interactions, powered by .NET Aspire and Semantic Kernel. It provides endpoints for the chat frontend to communicate with the chat backend. The `@microsoft/ai-chat-protocol` package is used to handle chat interactions, including streaming and non-streaming requests.
+- `ChatApp.WebApi`: This is a .NET Web API that handles chat interactions, powered by Aspire and Semantic Kernel. It provides endpoints for the chat frontend to communicate with the chat backend. The `@microsoft/ai-chat-protocol` package is used to handle chat interactions, including streaming and non-streaming requests.
 
 - `ChatApp.React`: This is a React app that provides the user interface for the chat application. It is built using Vite, a modern and efficient build tool. It uses the `@microsoft/ai-chat-protocol` package to handle chat interactions, allowing for flexible communication with the chat backend.
 
